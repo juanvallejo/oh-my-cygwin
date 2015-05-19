@@ -34,7 +34,7 @@ fi
 install --backup "${APT_CYG}" /bin/apt-cyg
 
 # setting up zsh as default
-sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /etc/passwd
+sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /usr/bin/passwd
 
 # et voila just start it
 /usr/bin/env zsh
